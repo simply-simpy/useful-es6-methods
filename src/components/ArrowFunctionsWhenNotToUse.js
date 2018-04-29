@@ -9,7 +9,9 @@ export default class ArrowFunctionsWhenNotToUse extends Component {
                 <p>There are some cases when an arrow function not the best choice</p>
                 <ol>
                     <li>When you have a `click event` handler attached to a button, and need the click to target the
-                        button you click.</li>
+                        button you click.
+                    </li>
+
                     <li>When you need a method to bind to an object</li>
                     <li>When you need to add a prototype method</li>
                     <li>When you need the arguments object</li>
