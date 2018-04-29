@@ -1,0 +1,2 @@
+Arrow functions exercises
+Review all material thoroughly
