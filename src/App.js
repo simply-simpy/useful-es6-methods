@@ -6,19 +6,23 @@ import ArrowFunctionsWhenNotToUse from "./components/ArrowFunctionsWhenNotToUse"
 import TheThisKeyword from "./components/TheThisKeyword";
 import SelectingElements from "./components/SelectingElements";
 import DefaultFunctionArguments from "./components/DefaultFunctionArguments";
+import ArrowFunctionsExercises from "./components/ArrowFunctionsExercises";
+import TemplateStrings from "./components/TemplateStrings";
 
 class App extends Component {
     render() {
         return (
+
             <div className="app">
                 <SelectingElements/>
                 <NewVariables/>
                 <ArrowFunctions/>
                 <ArrowFunctionsWhenNotToUse />
+
                 <TheThisKeyword/>
                 <DefaultFunctionArguments/>
+                <TemplateStrings />
             </div>
-
         );
     }
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CodePen from "./CodePen";
 
 
 export default class NewVariables extends Component {
@@ -27,20 +28,7 @@ export default class NewVariables extends Component {
           <p>A <code>let</code> variable cannot be defined twice in the same scope</p>
           <p><code>Const</code></p>
           <p>Properties of a <code>const</code> variable can be updated.</p>
-
-          <iframe
-              height='265'
-              scrolling='no'
-              title='ES6 — const with mutable object'
-              src='//codepen.io/simply-simpy/embed/95f960392cb354d2d8dfd6c0dbf27fd5/?height=265&theme-id=0&default-tab=js,result&embed-version=2&editable=true'
-              frameBorder='no'
-              allowTransparency='true'
-              allowFullScreen='true'
-              style={{width: 100 +"%"}}>See the Pen
-              <a href='https://codepen.io/simply-simpy/pen/95f960392cb354d2d8dfd6c0dbf27fd5/'>ES6 — const with mutable object</a>
-              by simply-simpy (<a href='https://codepen.io/simply-simpy'>@simply-simpy</a>) on
-              <a href='https://codepen.io'>CodePen</a>.
-          </iframe>
+            <CodePen codepen="95f960392cb354d2d8dfd6c0dbf27fd5"/>
           <h2>Is <code>var</code> dead in JavaScript?</h2>
           <p>Sort of —</p>
           <p>One suggested best practice</p>

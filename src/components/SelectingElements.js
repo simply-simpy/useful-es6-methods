@@ -2,7 +2,14 @@ import React, {Component} from 'react';
 
 
 export default class SelectingElements extends Component {
-
+span = {
+    display: "table",
+    width: "50%"
+};
+flex = {
+    display: "flex",
+    width: "50%"
+};
   render() {
     return (
         <div className="items">
@@ -14,6 +21,30 @@ export default class SelectingElements extends Component {
             <li>Change the text of an element. This is sometimes needed when you don't have access to the source of the text. Perhaps the text is coming from a Json file on a remove server. </li>
             <li>Show and hide elements based upon user actions</li>
           </ol>
+            <h2>NodeLists versus HTMLCollections</h2>
+            <p>The different methods used to reference the DOM results in two types of collections. A NodeList or a HTMLCollection.</p>
+            <ul>
+                <li style={this.flex}>
+                    <span style={this.span}><strong>NodeList</strong></span>
+                    <span style={this.span}><strong>HTMLCollection</strong></span>
+                </li>
+                <li style={this.flex}>
+                    <span style={this.span}>Returns all nodes (text, comments, etc...)</span>
+                    <span style={this.span}>Returns only HTML</span>
+                </li>
+                <li style={this.flex}>
+                    <span style={this.span}>Returns a static collection <sup><strong>[1]</strong></sup></span>
+                    <span style={this.span}>Returns a live collection <sup><strong>[2]</strong></sup></span>
+                </li>
+            </ul>
+            <p><strong>[1]: An example of static collection: </strong> Let's say you you create a variable called <code>introDiv</code>. You then assign
+            this variable to the value of <code>document.querySelectorAll("#intro")</code> like so: <code>let introDive = document.querySelectorAll("#intro")</code>.<br />
+            If you then make changes to your page to the element that is matched by <code>document.querySelectorAll("#intro")</code>, those changes will NOT be reflected in the value of <code>introDiv</code>.</p>
+
+            <p><strong>[2]: An example of live collection: </strong> Let's say you you create a variable called <code>introDiv</code>. You then assign
+                this variable to the value of <code>document.getElementById("intro")</code> like so: <code>let introDive = document.getElementById("intro")</code>.<br />
+            If you then make changes to your page to the element that is matched by <code>document.getElementById("intro")</code>, those changes will be reflected in the value of <code>introDiv</code>.</p>
+            <p><a href="https://www.youtube.com/watch?v=ubNP6fbT2Ac">Learn More about NodeList and HTMLCollections</a></p>
           <iframe height='265' scrolling='no' title='Selecting (DOM) Elements Via JavaScript'
                   src='//codepen.io/simply-simpy/embed/WJrMML/?height=265&theme-id=0&default-tab=js,result&embed-version=2&editable=true'
                   frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: 100 + "%", height: 800 + "px"}}>See the Pen <a
