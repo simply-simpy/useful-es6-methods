@@ -8,7 +8,7 @@ export default class DefaultFunctionArguments extends Component {
                 <h1>Default Function Arguments</h1>
                 <p>ES6 allows the setting of default arguments when the function is declared</p>
                 <p>These functions are overridable as well</p>
-                <CodePen codepen="LmxdeE" height="400"/>
+                <CodePen codepen="LmxdeE" height="350"/>
             </div>
         );
     }

@@ -17,7 +17,7 @@ export default class NewVariables extends Component {
                 <li>the use of functions inside of strings</li>
             </ul>
 
-            <CodePen codepen='MGoWyp' />
+            <CodePen codepen='MGoWyp' height = '800' />
 
 
         </div>

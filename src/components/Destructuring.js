@@ -8,7 +8,7 @@ export default class Destructuring extends Component {
         <div className="destructuring">
             <h1>Destructuring</h1>
             <p>A JavaScript expression that allows the extraction of data from arrays, objects, maps and sets into their own variables </p>
-            <CodePen codepen='xjreJK' />
+            <CodePen codepen='xjreJK' height='900' />
         </div>
     );
   }

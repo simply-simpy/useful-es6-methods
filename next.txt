@@ -1,2 +1,2 @@
-4 Minute mark on template strings
 Review all material thoroughly
+Then, continue destructuring
