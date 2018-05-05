@@ -8,6 +8,7 @@ import SelectingElements from "./components/SelectingElements";
 import DefaultFunctionArguments from "./components/DefaultFunctionArguments";
 import ArrowFunctionsExercises from "./components/ArrowFunctionsExercises";
 import TemplateStrings from "./components/TemplateStrings";
+import Destructuring from "./components/Destructuring";
 
 class App extends Component {
     render() {
@@ -22,6 +23,7 @@ class App extends Component {
                 <TheThisKeyword/>
                 <DefaultFunctionArguments/>
                 <TemplateStrings />
+                <Destructuring/>
             </div>
         );
     }
