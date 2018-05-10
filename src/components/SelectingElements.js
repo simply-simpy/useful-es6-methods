@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import CodePen from './CodePen';
 
 export default class SelectingElements extends Component {
 span = {
@@ -45,13 +45,8 @@ flex = {
                 this variable to the value of <code>document.getElementById("intro")</code> like so: <code>let introDive = document.getElementById("intro")</code>.<br />
             If you then make changes to your page to the element that is matched by <code>document.getElementById("intro")</code>, those changes will be reflected in the value of <code>introDiv</code>.</p>
             <p><a href="https://www.youtube.com/watch?v=ubNP6fbT2Ac">Learn More about NodeList and HTMLCollections</a></p>
-          <iframe height='265' scrolling='no' title='Selecting (DOM) Elements Via JavaScript'
-                  src='//codepen.io/simply-simpy/embed/WJrMML/?height=265&theme-id=0&default-tab=js,result&embed-version=2&editable=true'
-                  frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: 100 + "%", height: 800 + "px"}}>See the Pen <a
-              href='https://codepen.io/simply-simpy/pen/WJrMML/'>Selecting (DOM) Elements Via JavaScript</a> by
-            simply-simpy (<a href='https://codepen.io/simply-simpy'>@simply-simpy</a>) on <a
-                href='https://codepen.io'>CodePen</a>.
-          </iframe>
+            <CodePen codepen='WJrMML' height='900' />
+
         </div>
     );
   }

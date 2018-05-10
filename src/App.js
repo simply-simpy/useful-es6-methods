@@ -11,6 +11,8 @@ import TemplateStrings from "./components/TemplateStrings";
 import StringMethods from './components/StringMethods';
 import Destructuring from "./components/Destructuring";
 
+import Playground from "./components/Playground";
+
 class App extends Component {
     render() {
         return (
@@ -26,6 +28,8 @@ class App extends Component {
                 <TemplateStrings />
                 <StringMethods />
                 <Destructuring/>
+
+                <Playground />
             </div>
         );
     }
