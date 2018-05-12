@@ -10,7 +10,8 @@ import ArrowFunctionsExercises from "./components/ArrowFunctionsExercises";
 import TemplateStrings from "./components/TemplateStrings";
 import StringMethods from './components/StringMethods';
 import Destructuring from "./components/Destructuring";
-
+import ForOfLoop from './components/ForOfLoop';
+import ForOfWithObjects from './components/ForOfWithObjects';
 import Playground from "./components/Playground";
 
 class App extends Component {
@@ -29,6 +30,8 @@ class App extends Component {
                 <StringMethods />
                 <Destructuring/>
 
+                <ForOfLoop />
+                <ForOfWithObjects/>
                 <Playground />
             </div>
         );
