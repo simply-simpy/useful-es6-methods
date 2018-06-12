@@ -16,6 +16,8 @@ import Playground from "./components/Playground";
 import ArrayOfAndArrayFrom from './components/ArrayOfAndArrayFrom';
 import ArrayFindAndFindIndex from "./components/ArrayFindAndFindIndex";
 import SomeAndEvery from "./components/SomeAndEvery";
+import SpreadOperator from "./components/SpreadOperator";
+import RestParamInFunctions from "./components/RestParamInFunctions";
 
 class App extends Component {
     render() {
@@ -35,6 +37,8 @@ class App extends Component {
                 <ArrayOfAndArrayFrom />
                 <ArrayFindAndFindIndex />
                 <SomeAndEvery />
+                <SpreadOperator/>
+                <RestParamInFunctions/>
                 <Playground />
             </div>
         );
