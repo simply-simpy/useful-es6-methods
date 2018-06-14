@@ -18,6 +18,7 @@ import ArrayFindAndFindIndex from "./components/ArrayFindAndFindIndex";
 import SomeAndEvery from "./components/SomeAndEvery";
 import SpreadOperator from "./components/SpreadOperator";
 import RestParamInFunctions from "./components/RestParamInFunctions";
+import ObjectLiteralUpgrades from "./components/ObjectLiteralUpgrades";
 
 class App extends Component {
     render() {
@@ -39,6 +40,7 @@ class App extends Component {
                 <SomeAndEvery />
                 <SpreadOperator/>
                 <RestParamInFunctions/>
+                <ObjectLiteralUpgrades />
                 <Playground />
             </div>
         );

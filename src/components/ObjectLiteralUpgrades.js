@@ -10,7 +10,7 @@ export default class ObjectLiteralUpgrades extends Component {
             <ul>
 
             </ul>
-            <CodePen codepen='BxGWJo' height = '400' />
+            <CodePen codepen='jKwQmz' height = '400' />
         </div>
     );
   }
