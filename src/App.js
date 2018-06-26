@@ -19,6 +19,7 @@ import SomeAndEvery from "./components/SomeAndEvery";
 import SpreadOperator from "./components/SpreadOperator";
 import RestParamInFunctions from "./components/RestParamInFunctions";
 import ObjectLiteralUpgrades from "./components/ObjectLiteralUpgrades";
+import Promises from './components/Promises';
 
 class App extends Component {
     render() {
@@ -41,6 +42,7 @@ class App extends Component {
                 <SpreadOperator/>
                 <RestParamInFunctions/>
                 <ObjectLiteralUpgrades />
+                <Promises />
                 <Playground />
             </div>
         );
