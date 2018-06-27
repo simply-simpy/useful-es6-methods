@@ -20,6 +20,7 @@ import SpreadOperator from "./components/SpreadOperator";
 import RestParamInFunctions from "./components/RestParamInFunctions";
 import ObjectLiteralUpgrades from "./components/ObjectLiteralUpgrades";
 import Promises from './components/Promises';
+import Symbols from './components/Symbols';
 
 class App extends Component {
     render() {
@@ -43,7 +44,7 @@ class App extends Component {
                 <RestParamInFunctions/>
                 <ObjectLiteralUpgrades />
                 <Promises />
-
+                <Symbols />
                 <Playground />
             </div>
         );
