@@ -43,6 +43,7 @@ class App extends Component {
                 <RestParamInFunctions/>
                 <ObjectLiteralUpgrades />
                 <Promises />
+
                 <Playground />
             </div>
         );
