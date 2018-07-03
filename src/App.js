@@ -21,6 +21,7 @@ import RestParamInFunctions from "./components/RestParamInFunctions";
 import ObjectLiteralUpgrades from "./components/ObjectLiteralUpgrades";
 import Promises from './components/Promises';
 import Symbols from './components/Symbols';
+import JavaScriptModules from "./components/JavaScriptModules";
 
 class App extends Component {
     render() {
@@ -45,6 +46,7 @@ class App extends Component {
                 <ObjectLiteralUpgrades />
                 <Promises />
                 <Symbols />
+                <JavaScriptModules/>
                 <Playground />
             </div>
         );

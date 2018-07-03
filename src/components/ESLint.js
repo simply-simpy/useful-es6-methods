@@ -14,7 +14,6 @@ export default class ESLint extends Component {
                 <li>warn</li>
                 <li>error</li>
             </ol>
-            <CodePen codepen='zameqK' height='900' />
         </div>
     );
   }
