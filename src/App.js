@@ -22,6 +22,7 @@ import ObjectLiteralUpgrades from "./components/ObjectLiteralUpgrades";
 import Promises from './components/Promises';
 import Symbols from './components/Symbols';
 import JavaScriptModules from "./components/JavaScriptModules";
+import ProtypalInheritanceAndClasses from "./components/PrototypalInheritanceAndClasses";
 
 class App extends Component {
     render() {
@@ -47,6 +48,7 @@ class App extends Component {
                 <Promises />
                 <Symbols />
                 <JavaScriptModules/>
+                    <ProtypalInheritanceAndClasses />
                 <Playground />
             </div>
         );
